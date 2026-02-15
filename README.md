@@ -109,6 +109,30 @@ From a market perspective, amenities act as value-enhancing differentiators.
 Investments in building infrastructure and security features may translate into measurable price premiums, making them strategically relevant for developers, property investors, and sellers aiming to optimize pricing and competitiveness.
 
 
+## Correlation Matrix
+![Correlation Matrix](correlation_matrix.png)
+
+The correlation matrix provides a comprehensive overview of linear relationships between all numerical variables in the dataset. It allows for quick identification of features that are strongly associated with apartment price.
+
+# Interpretation
+The matrix confirms that:
+Apartment size (square meters) shows the strongest positive correlation with price,
+Number of rooms also demonstrates a moderate positive relationship,
+Distance from city centre exhibits a weak relationship with price,
+Building characteristics and amenities have varying but generally weaker direct correlations.
+The heatmap visualization highlights both the strength and direction of these relationships, where warmer colors indicate positive correlations and cooler tones indicate negative ones.
+
+## Business Insight
+
+The correlation analysis suggests that structural attributes — particularly size — are the primary quantitative drivers of price formation.
+
+However, the moderate strength of correlations indicates that pricing is multidimensional and influenced by a combination of physical, locational, and qualitative factors.
+
+This justifies the use of a multivariate predictive model rather than relying on single-variable analysis.
+
+
+
+
 
 
 
