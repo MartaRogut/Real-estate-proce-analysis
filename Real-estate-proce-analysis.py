@@ -202,6 +202,9 @@ plt.show()
                 annot=False)
 
     plt.title("Correlation Matrix")
+    plt.tight_layout()
+
+    plt.savefig("correlation_matrix.png", dpi=300)
     plt.show()
 
     # korelacja z ceną
@@ -284,6 +287,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
