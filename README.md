@@ -63,4 +63,23 @@ This confirms that room count is an important structural determinant of total pr
 
 From a business perspective, room segmentation can support pricing strategy and market positioning, particularly when targeting specific buyer groups.
 
+## Relationship Between Distance from City Centre and Price
+
+The analysis indicates a weak relationship between apartment price and distance from the city centre. While classical market theory suggests that properties located closer to the centre command higher prices, the regression line reveals only a marginal trend in this dataset.
+
+The low correlation coefficient confirms that distance alone does not strongly determine pricing. This suggests that other structural and qualitative factors — such as apartment size, building standard, and amenities — play a more substantial role in price formation.
+
+
+![Price vs Distance from Centre](price_vs_distance.png)
+
+Interpretation of the Regression Plot
+
+The regression plot illustrates a weak relationship between apartment price and distance from the city centre. Although a slight upward trend is visible, the regression line is relatively flat, indicating that distance alone does not strongly determine pricing.
+
+The substantial dispersion of observations across all distance levels suggests that properties located at similar distances from the centre may vary significantly in price. This implies that additional factors — such as apartment size, building quality, and amenities — play a more influential role in price formation.
+
+Overall, distance from the city centre appears to have limited standalone explanatory power in this dataset.
+
+
+
 
