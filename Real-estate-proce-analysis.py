@@ -101,9 +101,10 @@ def run_eda(full_df):
     plt.title("Price vs Size with Trend Line")
     plt.xlabel("Square meters")
     plt.ylabel("Price")
+    plt.savefig("price_vs_size.png", bbox_inches="tight")
     plt.show()
 
-    plt.savefig("price_vs_size.png", bbox_inches="tight")
+    
 
 
     # korelacja
@@ -281,4 +282,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
